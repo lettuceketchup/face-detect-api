@@ -9,3 +9,7 @@ def detect():
     faces = detectFaces(imgUrl)
     response = jsonify(faces)
     return response
+
+
+if __name__ == "__main__":
+    app.run()
