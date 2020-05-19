@@ -21,7 +21,7 @@ matplotlib==3.2.1
 mccabe==0.6.1
 networkx==2.4
 numpy==1.18.4
-opencv-python==4.2.0.34
+opencv-python-headless
 pathspec==0.8.0
 Pillow==7.1.2
 pycodestyle==2.6.0
