@@ -5,8 +5,7 @@ from skimage import io
 def detectFaces(url):
 
     # Create a cascadeClassifier Object
-    face_cascade = cv2.CascadeClassifier(
-        "C:\\Users\\rishi\\Anaconda3\\Library\\etc\\haarcascades\\haarcascade_frontalface_default.xml")
+    face_cascade = cv2.CascadeClassifier("./haarcascade_frontalface_default.xml")
 
     image = io.imread(url)
     height, width = image.shape[0:2]
