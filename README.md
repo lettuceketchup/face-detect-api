@@ -1,5 +1,6 @@
 # Face detection API using cv2
 Uses Flask, OpenCV to detect faces.
+
 Return rectangles of faces in a picture with side positions defined by percentages.
 
 # Install
