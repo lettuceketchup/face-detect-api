@@ -3,6 +3,8 @@ from detectFaces import detectFaces
 
 app = Flask(__name__)
 
+print("Started")
+
 @app.route('/image/', methods=['POST'])
 def detect():
     imgUrl = request.json['imgUrl']
